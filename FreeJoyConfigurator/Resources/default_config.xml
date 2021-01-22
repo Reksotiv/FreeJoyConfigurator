@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <DeviceConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Firmware_Version>5632</Firmware_Version>
+  <Firmware_Version>5664</Firmware_Version>
   <Device_Name>FreeJoy</Device_Name>
   <Button_Debounce_Time>50</Button_Debounce_Time>
   <A2b_Debounce_Time>50</A2b_Debounce_Time>
@@ -104,12 +104,13 @@
     <Button1>0</Button1>
     <Button2>0</Button2>
     <Button3>0</Button3>
-    <Divider>255</Divider>
+    <Divider>50</Divider>
     <Button1_Type>Down</Button1_Type>
     <Button2_Type>Reset</Button2_Type>
     <Button3_Type>Up</Button3_Type>
     <Prescaler>100</Prescaler>
-    <IsCalibCenterUnlocked>false</IsCalibCenterUnlocked>
+    <IsCentered>false</IsCentered>
+    <IsAddressEnabled>false</IsAddressEnabled>
   </Axis_Config>
   <Axis_Config>
     <CalibMin>-32767</CalibMin>
@@ -176,12 +177,13 @@
     <Button1>0</Button1>
     <Button2>0</Button2>
     <Button3>0</Button3>
-    <Divider>255</Divider>
+    <Divider>50</Divider>
     <Button1_Type>Down</Button1_Type>
     <Button2_Type>Reset</Button2_Type>
     <Button3_Type>Up</Button3_Type>
     <Prescaler>100</Prescaler>
-    <IsCalibCenterUnlocked>false</IsCalibCenterUnlocked>
+    <IsCentered>false</IsCentered>
+    <IsAddressEnabled>false</IsAddressEnabled>
   </Axis_Config>
   <Axis_Config>
     <CalibMin>-32767</CalibMin>
@@ -248,12 +250,13 @@
     <Button1>0</Button1>
     <Button2>0</Button2>
     <Button3>0</Button3>
-    <Divider>255</Divider>
+    <Divider>50</Divider>
     <Button1_Type>Down</Button1_Type>
     <Button2_Type>Reset</Button2_Type>
     <Button3_Type>Up</Button3_Type>
     <Prescaler>100</Prescaler>
-    <IsCalibCenterUnlocked>false</IsCalibCenterUnlocked>
+    <IsCentered>false</IsCentered>
+    <IsAddressEnabled>false</IsAddressEnabled>
   </Axis_Config>
   <Axis_Config>
     <CalibMin>-32767</CalibMin>
@@ -320,12 +323,13 @@
     <Button1>0</Button1>
     <Button2>0</Button2>
     <Button3>0</Button3>
-    <Divider>255</Divider>
+    <Divider>50</Divider>
     <Button1_Type>Down</Button1_Type>
     <Button2_Type>Reset</Button2_Type>
     <Button3_Type>Up</Button3_Type>
     <Prescaler>100</Prescaler>
-    <IsCalibCenterUnlocked>false</IsCalibCenterUnlocked>
+    <IsCentered>false</IsCentered>
+    <IsAddressEnabled>false</IsAddressEnabled>
   </Axis_Config>
   <Axis_Config>
     <CalibMin>-32767</CalibMin>
@@ -392,12 +396,13 @@
     <Button1>0</Button1>
     <Button2>0</Button2>
     <Button3>0</Button3>
-    <Divider>255</Divider>
+    <Divider>50</Divider>
     <Button1_Type>Down</Button1_Type>
     <Button2_Type>Reset</Button2_Type>
     <Button3_Type>Up</Button3_Type>
     <Prescaler>100</Prescaler>
-    <IsCalibCenterUnlocked>false</IsCalibCenterUnlocked>
+    <IsCentered>false</IsCentered>
+    <IsAddressEnabled>false</IsAddressEnabled>
   </Axis_Config>
   <Axis_Config>
     <CalibMin>-32767</CalibMin>
@@ -464,12 +469,13 @@
     <Button1>0</Button1>
     <Button2>0</Button2>
     <Button3>0</Button3>
-    <Divider>255</Divider>
+    <Divider>50</Divider>
     <Button1_Type>Down</Button1_Type>
     <Button2_Type>Reset</Button2_Type>
     <Button3_Type>Up</Button3_Type>
     <Prescaler>100</Prescaler>
-    <IsCalibCenterUnlocked>false</IsCalibCenterUnlocked>
+    <IsCentered>false</IsCentered>
+    <IsAddressEnabled>false</IsAddressEnabled>
   </Axis_Config>
   <Axis_Config>
     <CalibMin>-32767</CalibMin>
@@ -536,12 +542,13 @@
     <Button1>0</Button1>
     <Button2>0</Button2>
     <Button3>0</Button3>
-    <Divider>255</Divider>
+    <Divider>50</Divider>
     <Button1_Type>Down</Button1_Type>
     <Button2_Type>Reset</Button2_Type>
     <Button3_Type>Up</Button3_Type>
     <Prescaler>100</Prescaler>
-    <IsCalibCenterUnlocked>false</IsCalibCenterUnlocked>
+    <IsCentered>false</IsCentered>
+    <IsAddressEnabled>false</IsAddressEnabled>
   </Axis_Config>
   <Axis_Config>
     <CalibMin>-32767</CalibMin>
@@ -608,12 +615,13 @@
     <Button1>0</Button1>
     <Button2>0</Button2>
     <Button3>0</Button3>
-    <Divider>255</Divider>
+    <Divider>50</Divider>
     <Button1_Type>Down</Button1_Type>
     <Button2_Type>Reset</Button2_Type>
     <Button3_Type>Up</Button3_Type>
     <Prescaler>100</Prescaler>
-    <IsCalibCenterUnlocked>false</IsCalibCenterUnlocked>
+    <IsCentered>false</IsCentered>
+    <IsAddressEnabled>false</IsAddressEnabled>
   </Axis_Config>
   <ShiftModificator_Config>
     <Button>0</Button>
@@ -2079,7 +2087,7 @@
     <ButtonCnt>0</ButtonCnt>
   </ShitRegisters_Config>
   <EncodersConfig>
-    <Type>Encoder_1x</Type>
+    <Type>Encoder_2x</Type>
   </EncodersConfig>
   <EncodersConfig>
     <Type>Encoder_1x</Type>
@@ -2131,6 +2139,15 @@
   <Pid>22352</Pid>
   <LedPwmConfig>
     <DutyCycle>
+      <unsignedByte>50</unsignedByte>
+      <unsignedByte>50</unsignedByte>
+      <unsignedByte>50</unsignedByte>
+      <unsignedByte>50</unsignedByte>
+      <unsignedByte>50</unsignedByte>
+      <unsignedByte>50</unsignedByte>
+      <unsignedByte>0</unsignedByte>
+      <unsignedByte>0</unsignedByte>
+      <unsignedByte>0</unsignedByte>
       <unsignedByte>0</unsignedByte>
       <unsignedByte>0</unsignedByte>
       <unsignedByte>0</unsignedByte>
